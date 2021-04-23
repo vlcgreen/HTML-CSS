@@ -1,0 +1,57 @@
+
+body{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    background-color:khaki;
+    color: indigo;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+a{
+    color: indigo;
+    text-decoration: none;
+    font-size: 20;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    /* text-decoration: underline; */
+    color: blue
+}
+
+ul{
+    display: flex;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+li{
+    margin-right: 10px;
+    list-style: none;
+    padding: 20px;
+}
+
+li:hover{
+    background-color:rgb(231, 228, 186);
+}
+
+main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+.sides{
+    width: 20%;
+    background-color: gray;
+}
+
+.content{
+    width: 80%;
+    flex
+}

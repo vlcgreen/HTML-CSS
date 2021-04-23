@@ -1,0 +1,92 @@
+body{
+    padding: 10px;
+    /* background-color: black; */
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+
+    display: flex;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexContainerRow{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: stretch;
+    border: black;
+}
+.flexContainerColumn{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+    border: black
+}
+div{
+    border: 4px solid rgb(65, 63, 63);
+}
+
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.leftbox1{
+    width: 23%;
+    margin-top: 0;
+    align-self: flex-start;
+}
+.leftbox2{
+    width: 72%;
+    margin-top: 0;
+    align-self: flex-end;
+}
+
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.flex5{
+    flex: 5;
+}
+.flex6{
+    flex: 6;
+}
+.flex7{
+    flex: 7;
+}
+.flex8{
+    flex: 8;
+}
+.flex10{
+    flex: 10;
+}
+.flex12{
+    flex: 12;
+}

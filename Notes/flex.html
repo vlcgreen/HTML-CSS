@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            height: 1500px;
+            background-color: turquoise;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            /* align-content: flex-start; */
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+        }
+        .item{
+            /* width: 150px; */
+            height: 150px;
+            background-color:red;
+            color: white;
+            font-size: 50px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .order1{
+            order: 1;
+        }
+        .order2{
+            order: 2;
+        }
+        .fg1{
+            flex-grow: 1;
+        }
+        .fg2{
+            flex-grow: 2;
+        }
+        .fg3{
+            flex-grow: 3;
+        }
+        .top{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div class = "container">
+
+    <div class="item fg1">1</div>
+    <div class="item fg2 top">2</div>
+    <div class="item fg1">3</div>
+    <div class="item fg1">4</div>
+    <div class="item fg1">5</div>
+    <!-- <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div>
+    <div class="item">5</div> -->
+
+</div>
+
+</body>
+</html>
